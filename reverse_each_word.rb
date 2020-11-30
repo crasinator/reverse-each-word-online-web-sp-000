@@ -3,4 +3,5 @@ string = string.split(" ")
 string.collect do |love|
  love.reverse
 end
+string = string.join
 end
