@@ -3,5 +3,5 @@ string = string.split(" ")
   string.collect { |love|
      var = love.reverse
   }
-  string.join
+  string.join(" ")
 end
