@@ -1,7 +1,6 @@
 def reverse_each_word(string)
-string = string.
-
-do |love|
+string = string.split(" ")
+string.each do |love|
  string << love.reverse
 end
 end
