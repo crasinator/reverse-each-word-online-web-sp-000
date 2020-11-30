@@ -1,3 +1,4 @@
 def reverse_each_word(string)
-string.reverse
+string.each do |love|
+  puts "#{love.reveerse}"
 end 
